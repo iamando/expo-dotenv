@@ -60,9 +60,9 @@ ApiClient.init('lorem', 'foobar')
 
 Manually edit the file importing `react-native-dotenv` by either adding an empty line or whitespace will work.
 
-### Can I use different **.env** settings for production ?
+### Can I use different **.env** settings for different release channels?
 
-Yes, simply create a separate **.env.production** file and the default release process of react-native will pickup the right config.
+Yes, simply create a separate **.env.[channel]** file and the default release process of react-native will pickup the right config.
 
 #### iOS
 
